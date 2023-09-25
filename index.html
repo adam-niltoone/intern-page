@@ -7,22 +7,38 @@
     <!-- Include Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Define the pastel gradient background */
-        body {
+        /* Define the pastel gradient background for the entire page */
+        html, body {
+            height: 100%;
             background: linear-gradient(135deg, #FFD6E0, #C7CEEA, #A9C7E5);
         }
     </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto p-8">
-        <h1 class="text-3xl font-semibold mb-6">Seam Interns Class of 2023</h1>
+        <!-- Header with Logo and Heading -->
+        <div class="text-center mb-6">
+            <!-- Logo -->
+            <img src="logo.png" alt="Company Logo" class="w-auto h-12">
+            
+            <!-- Heading -->
+            <h1 class="text-3xl font-semibold">Seam Interns Class of 2023</h1>
+        </div>
 
         <!-- Flex Container for Interns -->
         <div class="flex flex-wrap -mx-4">
             <!-- Intern Container 1 -->
             <div class="w-full md:w-1/3 px-4 mb-6">
                 <div class="bg-white rounded-lg shadow-lg p-6">
+                    <!-- Emoji before the intern's name -->
+                    <span class="text-2xl">🧑🏻‍🎓</span>
                     <h2 class="text-xl font-semibold mb-2">Wan Adam</h2>
+                    <ul class="list-disc pl-6 mb-2">
+                        <li><strong>Age:</strong> 27</li>
+                        <li><strong>Major:</strong> Computer Science</li>
+                        <li><strong>Interests:</strong> Web development, AI</li>
+                        <li><strong>Location:</strong> Kuala Lumpur, MY</li>
+                    </ul>
                     <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna id erat bibendum malesuada. Nulla facilisi.</p>
                 </div>
             </div>
@@ -30,6 +46,8 @@
             <!-- Intern Container 2 -->
             <div class="w-full md:w-1/3 px-4 mb-6">
                 <div class="bg-white rounded-lg shadow-lg p-6">
+                    <!-- Emoji before the intern's name -->
+                    <span class="text-2xl">👨🏻‍💻</span>
                     <h2 class="text-xl font-semibold mb-2">Al Bakri</h2>
                     <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna id erat bibendum malesuada. Nulla facilisi.</p>
                 </div>
@@ -38,6 +56,8 @@
             <!-- Intern Container 3 -->
             <div class="w-full md:w-1/3 px-4">
                 <div class="bg-white rounded-lg shadow-lg p-6">
+                    <!-- Emoji before the intern's name -->
+                    <span class="text-2xl">👨🏻‍🎓</span>
                     <h2 class="text-xl font-semibold mb-2">Daren</h2>
                     <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna id erat bibendum malesuada. Nulla facilisi.</p>
                 </div>
